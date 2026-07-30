@@ -2,7 +2,7 @@
 
 ## Мета: Знайомство з A01:2025 Broken Access Control
 
-## Середовище: Kali Linux, Docker engine, OWASP WebGoat container.
+#### Середовище: Kali Linux, Docker engine, OWASP WebGoat container.
 Для кращого розуміння потрібно пройти попередні кроки з мануала WebGoat. У меню оберімо розділ (А1) Broken Access Control та підрозділ Hijack session.
 
 ### Концепція
