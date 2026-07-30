@@ -18,8 +18,16 @@ Brute force attacks — атаки методом грубої сили (пер�
 Authenticated session — автентифікована сесія (сеанс).
 
 ## Хід роботи
-Далі переходимо на другу вкладинку (червоний колір означає, що потрібно буде щось зробити і це буде перевірятись). 
-<img width="889" height="250" alt="image" src="https://github.com/user-attachments/assets/b9721319-b207-428a-abba-7b878b3c01b4" />
+Далі переходимо на другу вкладинку (червоний колір означає, що потрібно буде щось зробити і це буде перевірятись).У цьому уроці ми намагаємося передбачити значення «hijack_cookie». Цей використовується для розрізнення автентифікованих та анонімних користувачів WebGoat.
+
+<img width="1441" height="617" alt="image" src="https://github.com/user-attachments/assets/3e23dcf2-8383-407b-a4e8-523ac3cfa744" />
+
+<img width="1598" height="393" alt="image" src="https://github.com/user-attachments/assets/f7290b90-6bf8-4480-8a07-6f0664bc94e5" />
+
+<img width="1604" height="888" alt="image" src="https://github.com/user-attachments/assets/d5c0c7b6-48d1-4bd1-8c66-6571e0bd024c" />
+
+<img width="2560" height="1476" alt="image" src="https://github.com/user-attachments/assets/46569e42-2fdd-42c8-b87f-5d8ff3c9dbbf" />
+
 
 
 
