@@ -19,6 +19,7 @@ Authenticated session — автентифікована сесія (сеанс)
 
 ## Хід роботи
 Далі переходимо на другу вкладинку (червоний колір означає, що потрібно буде щось зробити і це буде перевірятись). 
+<img width="889" height="250" alt="image" src="https://github.com/user-attachments/assets/b9721319-b207-428a-abba-7b878b3c01b4" />
 
 
 
