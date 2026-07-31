@@ -71,7 +71,7 @@ Authenticated session — автентифікована сесія (сеанс)
 <img width="1822" height="795" alt="image" src="https://github.com/user-attachments/assets/58b2ac1a-e0ed-43d3-9b9a-e225fb834575" />
 
 ## Insecure Direct Object References
-###Хід роботи
+### Хід роботи
 1. АВТЕНТИФІКАЦІЯ
 Виконаємо вхід, використовуючи user tom і password cat.
 <img width="808" height="501" alt="image" src="https://github.com/user-attachments/assets/2aca234a-8b44-4bd6-abe2-c9c30b6240e7" />
