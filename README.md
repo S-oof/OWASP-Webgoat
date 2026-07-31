@@ -84,7 +84,7 @@ Authenticated session — автентифікована сесія (сеанс)
 Використаємо userID, знайдений у попередньому пункті, та запишемо Url у відповідне поле:
 <img width="1804" height="903" alt="image" src="https://github.com/user-attachments/assets/de8dd8de-87e3-4590-9473-67d85c0bb311" />
 4. ГРА З ШАБЛОНАМИ
-Аби знайти дані іншого профілю, використаємо Intruder:
+Аби знайти дані іншого профілю, використаємо Intruder: 
 <img width="1919" height="846" alt="image" src="https://github.com/user-attachments/assets/a92269ae-420b-468f-867c-b858614efe51" />
 
 <img width="1473" height="842" alt="image" src="https://github.com/user-attachments/assets/10a5a26f-de6b-4b4e-8b2f-1d39378ac411" />
