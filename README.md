@@ -28,23 +28,6 @@ Authenticated session — автентифікована сесія (сеанс)
 
 <img width="1593" height="882" alt="image" src="https://github.com/user-attachments/assets/ae7d3657-434d-41fd-9adf-1c80932728ad" />
 
-<img width="1596" height="882" alt="image" src="https://github.com/user-attachments/assets/99b6ef41-27f1-469a-a78b-890c64aab9e2" />
-
-<img width="412" height="312" alt="image" src="https://github.com/user-attachments/assets/63a89f9d-f754-4f32-ba51-7ec2889f4da8" />
-
-5431752998039514330-1785498759046
-5431752998039514331-1785498762033
-5431752998039514333-1785498762437
-5431752998039514335-1785498762573
-5431752998039514336-1785498762724
-5431752998039514337-1785498762871
-5431752998039514338-1785498763025
-5431752998039514340-1785498763149
-5431752998039514341-1785498763275
-5431752998039514342-1785498763395
-
-<img width="1565" height="879" alt="image" src="https://github.com/user-attachments/assets/e3e8491f-34f0-46fe-a719-9b11ca4028d4" />
-
 
 
 
