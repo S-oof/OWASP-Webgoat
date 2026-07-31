@@ -72,9 +72,18 @@ Authenticated session — автентифікована сесія (сеанс)
 
 ## Insecure Direct Object References
 
+АВТЕНТИФІКАЦІЯ
+<img width="808" height="501" alt="image" src="https://github.com/user-attachments/assets/2aca234a-8b44-4bd6-abe2-c9c30b6240e7" />
 
+<img width="1514" height="855" alt="image" src="https://github.com/user-attachments/assets/67b9af8e-b76d-4ec8-8b13-c76a04baa72c" />
 
+<img width="1307" height="438" alt="image" src="https://github.com/user-attachments/assets/f0651c4d-1b47-40d9-b9b7-47dde0adffff" />
 
+<img width="1804" height="903" alt="image" src="https://github.com/user-attachments/assets/de8dd8de-87e3-4590-9473-67d85c0bb311" />
+
+<img width="1919" height="846" alt="image" src="https://github.com/user-attachments/assets/a92269ae-420b-468f-867c-b858614efe51" />
+
+<img width="1473" height="842" alt="image" src="https://github.com/user-attachments/assets/10a5a26f-de6b-4b4e-8b2f-1d39378ac411" />
 
 
 
