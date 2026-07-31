@@ -70,6 +70,8 @@ Authenticated session — автентифікована сесія (сеанс)
 А також вкладинка в завданні змінює свій колір з червоного на зелений:
 <img width="1822" height="795" alt="image" src="https://github.com/user-attachments/assets/58b2ac1a-e0ed-43d3-9b9a-e225fb834575" />
 
+## Insecure Direct Object References
+
 
 
 
