@@ -22,15 +22,49 @@ Authenticated session — автентифікована сесія (сеанс)
 
 <img width="1441" height="617" alt="image" src="https://github.com/user-attachments/assets/3e23dcf2-8383-407b-a4e8-523ac3cfa744" />
 
-<img width="1615" height="415" alt="image" src="https://github.com/user-attachments/assets/d8c32f74-a5cc-4b0b-b371-820a7a6220e1" />
+натискаємо "Access", отримуємо помилку та повертаємось до burpsuit, де маємо передивитись вкладинку HTTPhistory:
 
-<img width="1438" height="812" alt="image" src="https://github.com/user-attachments/assets/52c1e39c-c241-4126-a4a7-88cd30f2e1fb" />
+<img width="1602" height="376" alt="image" src="https://github.com/user-attachments/assets/b3986acf-ad87-4d66-ac49-1c53184bd53e" />
 
-<img width="1588" height="890" alt="image" src="https://github.com/user-attachments/assets/94979d23-d8d3-411e-8788-cc548ac2d9be" />
+Далі шукаємо відповідь POST, в якої міститься інформація про цю помилку (ключ - це зміст hijack_cookie, яку нам і потрібно "передбачити"):
 
+<img width="1914" height="925" alt="image" src="https://github.com/user-attachments/assets/77479169-5ca3-4dd6-ab4f-461d4591051c" />
 
+Далі натискаємо праву кнопку миші та відправляємо запит до Repeater:
 
+<img width="1903" height="893" alt="image" src="https://github.com/user-attachments/assets/a826be5d-19ba-4fe0-a365-716a5e609f15" />
 
+В Repeater робимо декілька повторів (в цьому прикладі може вистачити 5+ запитів):
+
+<img width="409" height="424" alt="image" src="https://github.com/user-attachments/assets/36049a94-5d45-4133-bbe2-85a30220f297" />
+
+Проаналізуємо як змінюється значення hijack_cookie, копіюємо ці значення в текстовий редактор:
+
+<img width="636" height="514" alt="image" src="https://github.com/user-attachments/assets/4d3c8a97-1eec-4dd2-9b52-b1bc39e63e6a" />
+
+Висновок про логіку створення кукі: перша частина відповідає за сесію користувача, а друга скоріш за все є часовою міткою, або timestamp.
+5431752998039514611-1785509151093
+5431752998039514612-1785509151646
+5431752998039514613-1785509152132
+5431752998039514615-1785509152597
+5431752998039514616-1785509153038
+5431752998039514617-1785509153591
+5431752998039514618-1785509154108
+5431752998039514619-1785509166521
+5431752998039514620-1785509167125
+5431752998039514621-1785509167709
+5431752998039514622-1785509168348
+5431752998039514624-1785509169444
+5431752998039514625-1785509170008
+
+Бачимо, що між 5431752998039514613 та 5431752998039514615 може бути сесія 5431752998039514614. Передаємо запит з сесією 5431752998039514613 до intruder:
+<img width="1261" height="858" alt="image" src="https://github.com/user-attachments/assets/92cb1cb6-5fc5-44c1-823a-d1ed6ff42b6d" />
+
+В Intruder формуємо свій запит відповідним чином: додаємо hijack_cookie ВІДСУТНЯ-СЕСІЯ, останні дві цифри будемо змінювати, такий собі лайтовий брутфорс
+<img width="1273" height="888" alt="image" src="https://github.com/user-attachments/assets/7c813495-5974-417c-83dc-b3a8b3d04d19" />
+
+Натискаємо start attack та чекаємо результатів перебору.
+<img width="1508" height="880" alt="image" src="https://github.com/user-attachments/assets/71e27702-49da-4530-a22f-e14d78152da1" />
 
 
 
