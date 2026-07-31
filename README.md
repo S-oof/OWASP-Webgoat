@@ -26,17 +26,6 @@ Authenticated session — автентифікована сесія (сеанс)
 
 <img width="1598" height="887" alt="image" src="https://github.com/user-attachments/assets/8576230f-58bd-45a5-97f0-a94a3819350f" />
 
-<img width="1593" height="882" alt="image" src="https://github.com/user-attachments/assets/ae7d3657-434d-41fd-9adf-1c80932728ad" />
-
-
-
-
-
-
-
-
-
-
 
 
 
