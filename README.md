@@ -86,13 +86,13 @@ Authenticated session — автентифікована сесія (сеанс)
 4. ГРА З ШАБЛОНАМИ
 Аби знайти дані іншого профілю, використаємо Intruder: 
 <img width="1919" height="846" alt="image" src="https://github.com/user-attachments/assets/a92269ae-420b-468f-867c-b858614efe51" />
-
+Переглянувши усі токени, знайдемо потрібний із належною інформацією:
 <img width="1473" height="842" alt="image" src="https://github.com/user-attachments/assets/10a5a26f-de6b-4b4e-8b2f-1d39378ac411" />
-
+Виконаємо редагування іншого профілю. Для вирішення цього питання потрібно мати актуальний (час обмежений) JSESSIONID. Далі з "свіжого" успішного запиту GET зробити в Repater запит PUT.
 <img width="1388" height="726" alt="image" src="https://github.com/user-attachments/assets/007462d2-b20c-43a0-b387-fd3d24aabde3" />
-
+Проаналізувавши  відповідь, усе виконано правильно, проте потрібно ще раз зменшити роль (з 2 до 1). Внесемо відповідні зміни та отримаємо результат:
 <img width="1536" height="580" alt="image" src="https://github.com/user-attachments/assets/cd0c1587-3954-466e-b0c6-3eeca11cb01e" />
-
+Як ми можемо побачити, усі вкладинки мають зелений колір. Отже, завдання успішно виконані.
 <img width="298" height="263" alt="image" src="https://github.com/user-attachments/assets/bca876e3-e571-41b3-bc7e-77926c819b51" />
 
 
