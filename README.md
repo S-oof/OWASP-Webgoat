@@ -71,8 +71,9 @@ Authenticated session — автентифікована сесія (сеанс)
 <img width="1822" height="795" alt="image" src="https://github.com/user-attachments/assets/58b2ac1a-e0ed-43d3-9b9a-e225fb834575" />
 
 ## Insecure Direct Object References
-
-АВТЕНТИФІКАЦІЯ
+###Хід роботи
+1. АВТЕНТИФІКАЦІЯ
+Виконаємо вхід, використовуючи user tom і password cat.
 <img width="808" height="501" alt="image" src="https://github.com/user-attachments/assets/2aca234a-8b44-4bd6-abe2-c9c30b6240e7" />
 
 <img width="1514" height="855" alt="image" src="https://github.com/user-attachments/assets/67b9af8e-b76d-4ec8-8b13-c76a04baa72c" />
@@ -85,10 +86,11 @@ Authenticated session — автентифікована сесія (сеанс)
 
 <img width="1473" height="842" alt="image" src="https://github.com/user-attachments/assets/10a5a26f-de6b-4b4e-8b2f-1d39378ac411" />
 
+<img width="1388" height="726" alt="image" src="https://github.com/user-attachments/assets/007462d2-b20c-43a0-b387-fd3d24aabde3" />
 
+<img width="1536" height="580" alt="image" src="https://github.com/user-attachments/assets/cd0c1587-3954-466e-b0c6-3eeca11cb01e" />
 
-
-
+<img width="298" height="263" alt="image" src="https://github.com/user-attachments/assets/bca876e3-e571-41b3-bc7e-77926c819b51" />
 
 
 
