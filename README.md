@@ -3,7 +3,9 @@
 ## Мета: Знайомство з A01:2025 Broken Access Control
 
 #### Середовище: Kali Linux, Docker engine, OWASP WebGoat container.
-Для кращого розуміння потрібно пройти попередні кроки з мануала WebGoat. У меню оберімо розділ (А1) Broken Access Control та підрозділ Hijack session.
+Для кращого розуміння потрібно пройти попередні кроки з мануала WebGoat. У меню оберімо розділ (А1) Broken Access Control.
+
+## Hijack a session
 
 ### Концепція
 Розробники прикладного програмного забезпечення, які створюють власні ідентифікатори сесій (session IDs), часто забувають забезпечити рівень складності та рандомізації, необхідний для безпеки. Якщо специфічний ідентифікатор сесії користувача не є складним і випадковим, додаток стає надзвичайно вразливим до атак типу «brute force» (перебір) на сесії.
@@ -60,12 +62,13 @@ Authenticated session — автентифікована сесія (сеанс)
 Бачимо, що між 5431752998039514613 та 5431752998039514615 може бути сесія 5431752998039514614. Передаємо запит з сесією 5431752998039514613 до intruder:
 <img width="1261" height="858" alt="image" src="https://github.com/user-attachments/assets/92cb1cb6-5fc5-44c1-823a-d1ed6ff42b6d" />
 
-В Intruder формуємо свій запит відповідним чином: додаємо hijack_cookie ВІДСУТНЯ-СЕСІЯ, останні дві цифри будемо змінювати, такий собі лайтовий брутфорс
+В Intruder формуємо свій запит відповідним чином: додаємо hijack_cookie 5431752998039514614-1785509152132, останні дві цифри будемо змінювати, такий собі лайтовий брутфорс
 <img width="1273" height="888" alt="image" src="https://github.com/user-attachments/assets/7c813495-5974-417c-83dc-b3a8b3d04d19" />
 
-Натискаємо start attack та чекаємо результатів перебору.
+Натискаємо start attack та чекаємо результатів перебору. У вкладці Response отримуємо "Congratulations! You have successfully completed the assigment."
 <img width="1508" height="880" alt="image" src="https://github.com/user-attachments/assets/71e27702-49da-4530-a22f-e14d78152da1" />
-
+А також вкладинка в завданні змінює свій колір з червоного на зелений:
+<img width="1822" height="795" alt="image" src="https://github.com/user-attachments/assets/58b2ac1a-e0ed-43d3-9b9a-e225fb834575" />
 
 
 
