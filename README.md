@@ -22,15 +22,28 @@ Authenticated session — автентифікована сесія (сеанс)
 
 <img width="1441" height="617" alt="image" src="https://github.com/user-attachments/assets/3e23dcf2-8383-407b-a4e8-523ac3cfa744" />
 
-<img width="1598" height="393" alt="image" src="https://github.com/user-attachments/assets/f7290b90-6bf8-4480-8a07-6f0664bc94e5" />
+<img width="1594" height="433" alt="image" src="https://github.com/user-attachments/assets/f0f4e2f8-ead8-4868-ada4-e7ee89aad4c0" />
 
-<img width="1595" height="891" alt="image" src="https://github.com/user-attachments/assets/0060d984-efa7-4030-b914-091c8c9749b5" />
+<img width="1598" height="887" alt="image" src="https://github.com/user-attachments/assets/8576230f-58bd-45a5-97f0-a94a3819350f" />
 
-<img width="1606" height="876" alt="image" src="https://github.com/user-attachments/assets/d8a50c22-e4ce-4c9d-a77c-ce469ae24a15" />
+<img width="1593" height="882" alt="image" src="https://github.com/user-attachments/assets/ae7d3657-434d-41fd-9adf-1c80932728ad" />
 
+<img width="1596" height="882" alt="image" src="https://github.com/user-attachments/assets/99b6ef41-27f1-469a-a78b-890c64aab9e2" />
 
+<img width="412" height="312" alt="image" src="https://github.com/user-attachments/assets/63a89f9d-f754-4f32-ba51-7ec2889f4da8" />
 
+5431752998039514330-1785498759046
+5431752998039514331-1785498762033
+5431752998039514333-1785498762437
+5431752998039514335-1785498762573
+5431752998039514336-1785498762724
+5431752998039514337-1785498762871
+5431752998039514338-1785498763025
+5431752998039514340-1785498763149
+5431752998039514341-1785498763275
+5431752998039514342-1785498763395
 
+<img width="1565" height="879" alt="image" src="https://github.com/user-attachments/assets/e3e8491f-34f0-46fe-a719-9b11ca4028d4" />
 
 
 
