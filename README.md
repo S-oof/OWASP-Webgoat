@@ -72,18 +72,18 @@ Authenticated session — автентифікована сесія (сеанс)
 
 ## Insecure Direct Object References
 ### Хід роботи
-1. АВТЕНТИФІКАЦІЯ
+#### 1. АВТЕНТИФІКАЦІЯ
 Виконаємо вхід в обліковий запис, використовуючи user tom і password cat.
 <img width="808" height="501" alt="image" src="https://github.com/user-attachments/assets/2aca234a-8b44-4bd6-abe2-c9c30b6240e7" />
-2. ВІДМІННОСТІ
+#### 2. ВІДМІННОСТІ
 За допомогою burpsuite знайдемо відмінності, які є у відповіді сервера, проте не відображаються у профілі: 
 <img width="1514" height="855" alt="image" src="https://github.com/user-attachments/assets/67b9af8e-b76d-4ec8-8b13-c76a04baa72c" />
 У відповідне поле введемо знайдені відмінності:
 <img width="1307" height="438" alt="image" src="https://github.com/user-attachments/assets/f0651c4d-1b47-40d9-b9b7-47dde0adffff" />
-3. ВГАДУВАННЯ ТА ПЕРЕДБАЧЕННЯ ШАБЛОНІВ
+#### 3. ВГАДУВАННЯ ТА ПЕРЕДБАЧЕННЯ ШАБЛОНІВ
 Використаємо userID, знайдений у попередньому пункті, та запишемо Url у відповідне поле:
 <img width="1804" height="903" alt="image" src="https://github.com/user-attachments/assets/de8dd8de-87e3-4590-9473-67d85c0bb311" />
-4. ГРА З ШАБЛОНАМИ
+#### 4. ГРА З ШАБЛОНАМИ
 Аби знайти дані іншого профілю, використаємо Intruder: 
 <img width="1919" height="846" alt="image" src="https://github.com/user-attachments/assets/a92269ae-420b-468f-867c-b858614efe51" />
 Переглянувши усі токени, знайдемо потрібний із належною інформацією:
@@ -95,9 +95,29 @@ Authenticated session — автентифікована сесія (сеанс)
 Як ми можемо побачити, усі вкладинки мають зелений колір. Отже, завдання успішно виконані.
 <img width="298" height="263" alt="image" src="https://github.com/user-attachments/assets/bca876e3-e571-41b3-bc7e-77926c819b51" />
 
+## (A3) Injection
 
+### Концепція
 
+Інформація цього модуля призначена для розуміння, що таке Structured Query Language (SQL) і як ним можна маніпулювати для виконання завдань, які не були передбачені розробником.
 
+### Цілі
+
+Користувач отримає базове розуміння того:
+-як працює SQL
+-для чого він використовується
+
+Користувач також отримає базове розуміння:
+-що таке SQL-ін’єкція
+-як вона працює
+
+Користувач продемонструє знання щодо:
+-DML, DDL та DCL
+-рядкових SQL-ін’єкцій (String SQL injection)
+-числових SQL-ін’єкцій (Numeric SQL injection)
+-того, як SQL-ін’єкція порушує тріаду CIA (конфіденційність, цілісність, доступність)
+
+### Хід роботи
 
 
 
