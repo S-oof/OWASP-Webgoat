@@ -1,4 +1,4 @@
-# OWASP-Webgoat
+# OWASP-WebGoat
 
 ## Мета: Знайомство з A01:2025 Broken Access Control
 
