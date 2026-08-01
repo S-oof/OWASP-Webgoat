@@ -169,16 +169,16 @@ The Scenario:
 
 Ви вже ввели своє ім’я користувача або адресу електронної пошти та обрали альтернативний спосіб підтвердження особи.
 
-
+Спочатку відповімо на запитання, проте відповідь значення не має:
 <img width="768" height="407" alt="image" src="https://github.com/user-attachments/assets/2fdafe5e-e6ac-4deb-b29a-713eba20041a" />
 
+У burpsuite на вкладці Proxy та підвкладці Intercept знайдемо відповідний запит із secQuestion0 i secQuestion1. 
 <img width="888" height="621" alt="image" src="https://github.com/user-attachments/assets/38426a0a-fdee-463e-8ec1-22b043021bc7" />
 
+Backend перевіряє саме ці два питання, тож якщо ми змінимо 0 на А, а 1 на В, то це задовільнить усі умови.
 <img width="696" height="103" alt="image" src="https://github.com/user-attachments/assets/dd7c46ad-6ae1-4f66-a016-3ccad95b3c32" />
 
-
-<img width="696" height="103" alt="image" src="https://github.com/user-attachments/assets/15b52f74-ec90-4819-97e8-58b8425a9203" />
-
+Повертаємось на сторінку WebGoat та бачимо, що завдання виконано.
 <img width="912" height="274" alt="image" src="https://github.com/user-attachments/assets/5d40f277-68c9-4464-b30a-d5a1370ca2c4" />
 
 
