@@ -117,7 +117,11 @@ Authenticated session — автентифікована сесія (сеанс)
 -числових SQL-ін’єкцій (Numeric SQL injection);
 -того, як SQL-ін’єкція порушує тріаду CIA (конфіденційність, цілісність, доступність).
 
+## SQL injection (intro)
 ### Хід роботи
+
+<img width="970" height="357" alt="image" src="https://github.com/user-attachments/assets/7dbf37d5-12c1-47e3-97d0-500f339770ed" />
+
 
 
 
