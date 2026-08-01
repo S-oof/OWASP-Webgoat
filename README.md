@@ -147,6 +147,27 @@ Authenticated session — автентифікована сесія (сеанс)
 Аби виконати це завдання потрібно використати техніку ланцюжків запитів (query chaining), щоб виконати команду видалення об'єкта бази даних (DDL).
 <img width="1658" height="599" alt="image" src="https://github.com/user-attachments/assets/c6277f8d-f958-44b4-846b-2589f426a027" />
 
+## Sql injection (advanced)
+
+#### 1.
+Використовуючи UNION, дістанемо усі дані з таблиці user_system_data.Головне правило оператора UNION у SQL: обидва запити повинні повертати однакову кількість колонок з відповідними типами даних.
+Таблиця user_data має 7 колонок:
+userid (число), first_name, last_name, cc_number, cc_type, cookie, login_count (число).
+Таблиця user_system_data має лише 4 колонки:
+userid, user_name, password, cookie.
+Щоб UNION не видав помилку про невідповідність кількості колонок, ми вручну дописуємо 3 "колонки" ('1', '2', 1), роблячи список з 7 елементів:
+<img width="1122" height="387" alt="image" src="https://github.com/user-attachments/assets/91220b18-deb1-4e74-b5b2-809345c98b30" />
+або розв'яжемо це завдання, використовуючи ланцюжки запитів:
+<img width="649" height="351" alt="image" src="https://github.com/user-attachments/assets/10a14d5a-c53b-416a-8aa1-462fb4b1aef7" />
+
+Введемо ім'я користувача dave та знайдений вище пароль:
+<img width="1606" height="264" alt="image" src="https://github.com/user-attachments/assets/594529c6-704e-45e5-a9df-3404cc7cdd54" />
+
+#### 2.
+
+
+
+
 
 
 
