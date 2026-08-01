@@ -119,19 +119,25 @@ Authenticated session — автентифікована сесія (сеанс)
 
 ## SQL injection (intro)
 ### Хід роботи
-
+#### 1. ЩО ТАКЕ SQL?
+Використаємо дані з таблиці та відповідні SQL команди, аби отримати назву відділу співробітника:
 <img width="970" height="357" alt="image" src="https://github.com/user-attachments/assets/7dbf37d5-12c1-47e3-97d0-500f339770ed" />
-
+#### 2. МОВА МАНІПУЛЮВАННЯ ДАНИМИ (DLM)
+Використаємо основні команди DLM аби змінити відділ для співробітника Tobi Barnett:
 <img width="993" height="382" alt="image" src="https://github.com/user-attachments/assets/d5ffe046-f287-4208-be2a-2fc137703826" />
-
+#### 3. МОВА ВИЗНАЧЕННЯ ДАНИХ (DDL)
+Використовуючи основні команди DDL, додамо стовпець phone до нашої таблиці employees:
 <img width="1018" height="323" alt="image" src="https://github.com/user-attachments/assets/263f22bb-0e73-4e7b-a0d1-a65a33eecb9f" />
-
+#### 4. МОВА КЕРУВАННЯ ДАНИМИ (DCL)
+Використовуючи команди DCL, надамо права на таблицю grant_rights користувачу unauthorized_user:
 <img width="995" height="613" alt="image" src="https://github.com/user-attachments/assets/8d5748ae-b93c-44a9-a1c6-48e260f77fff" />
-
+#### 5. РЯДКОВА SQL ІН'ЄКЦІЯ
+Використаємо форму, щоб отримати всіх користувачів із таблиці users:
 <img width="1579" height="737" alt="image" src="https://github.com/user-attachments/assets/2d565f5e-78f7-4dc7-8271-f673e6d42ddc" />
-
+#### 6. ЧИСЛОВА SQL ІН'ЄКЦІЯ
+Використовуючи два поля вводу нижче, спробуємо отримати всі дані з таблиці users:
 <img width="1302" height="797" alt="image" src="https://github.com/user-attachments/assets/a3c03d17-7654-4ec7-a33b-25b9380b4d32" />
-
+#### 7.
 <img width="1541" height="605" alt="image" src="https://github.com/user-attachments/assets/3d60d14a-d938-43ca-95b3-e68eeb2df5a4" />
 
 <img width="1658" height="599" alt="image" src="https://github.com/user-attachments/assets/c6277f8d-f958-44b4-846b-2589f426a027" />
